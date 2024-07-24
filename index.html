@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <div class="container">
+        <div class="product-preview">
+            <img src="images/1.jpg" id="main-product-image" class="main-product-image"/>
+            <div class="product-thumbnails">
+                <img src="images/1.jpg" class="product-image" onclick="changeImage('images/1.jpg')"/>
+                <img src="images/2.jpg" class="product-image" onclick="changeImage('images/2.jpg')"/>
+                <img src="images/3.jpg" class="product-image" onclick="changeImage('images/3.jpg')"/>
+                <img src="images/4.jpg" class="product-image" onclick="changeImage('images/4.jpg')"/>
+                <img src="images/5.jpg" class="product-image" onclick="changeImage('images/5.jpg')"/>
+            </div>
+        </div>
+        <div class="product-info">
+            <h1>Product Name</h1>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam at velit porttitor, malesuada ligula id, pretium dui.</p>
+            <p><strong>Price:</strong> $99.99</p>
+            <button class="buy-button">Buy Now</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
